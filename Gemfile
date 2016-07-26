@@ -7,9 +7,9 @@ gem "data_mapper"
 gem 'dm-postgres-adapter'
 gem 'sinatra'
 
-group :development, :test do
+# group :development, :test do
   gem 'rspec'
   gem 'capybara'
   gem 'rspec-sinatra'
   gem 'database_cleaner'
-end
+# end
